@@ -73,6 +73,7 @@
 body{
   margin: 0px;
   padding: 0px;
+  background-color: black;
 }
 
 h1{
@@ -81,10 +82,13 @@ h1{
   font-family: 'Whyte';
   font-size: 4em;
   line-height: 1;
+  color: white;
+
 }
 
 #home{
   padding: 24px;
+  height: 100vh;
 }
 
 div.circle{
@@ -101,6 +105,24 @@ div.title{
 
 div.title h1{
   margin-left: 16px;
+  color: #9F82CE;
+}
 
-  color:
+#wayfinding{
+  width: 100%;
+  border: 4px solid white;
+}
+
+#experience{
+  width: 100%;
+  border: 4px solid white;
+}
+
+#community{
+  border: 4px solid white;
+}
+
+#findings{
+  width: 100%;
+  border: 4px solid white;
 }
