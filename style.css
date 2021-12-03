@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Minister Std';
+    src: url('assets/Minister/MinisterStd-Light.woff2') format('woff2'),
+        url('assets/Minister/MinisterStd-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minister Std';
+    src: url('assets/Minister/MinisterStd-BookItalic.woff2') format('woff2'),
+        url('assets/Minister/MinisterStd-BookItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minister Std';
+    src: url('assets/Minister/MinisterStd-BoldItalic.woff2') format('woff2'),
+        url('assets/Minister/MinisterStd-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minister Std';
+    src: url('assets/Minister/MinisterStd-Black.woff2') format('woff2'),
+        url('assets/Minister/MinisterStd-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minister Std';
+    src: url('assets/Minister/MinisterStd-BlackItalic.woff2') format('woff2'),
+        url('assets/Minister/MinisterStd-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minister Std';
+    src: url('assets/Minister/MinisterStd-LightItalic.woff2') format('woff2'),
+        url('assets/Minister/MinisterStd-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Minister Std';
+    src: url('assets/Minister/MinisterStd-Bold.woff2') format('woff2'),
+        url('assets/Minister/MinisterStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Whyte';
+    src: url('assets/Whyte/ABCWhyteInktrapSemi-Mono-Regular-Trial.woff2') format('woff2'),
+        url('assets/Whyte/ABCWhyteInktrapSemi-Mono-Regular-Trial.woff') format('woff');
+
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Whyte';
+  font-size: 4em;
+  line-height: 1;
+}
+
+#home{
+  padding: 24px;
+}
+
+div.circle{
+  width: 4em;
+  height: 4em;
+  background-color: #9F82CE;
+  border-radius: 100%;
+}
+
+div.title{
+  display: flex;
+  flex-direction: row;
+}
+
+div.title h1{
+  margin-left: 16px;
+
+  color:
+}
